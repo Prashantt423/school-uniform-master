@@ -8,6 +8,7 @@ import TestimonialCard from "../../components/testimonials/TestimonialCard"
 import Footer from "../../components/Footer/Footer"
 import Trending from "../../components/trending/Trending"
 import Partner from "../../components/parntners/Partner"
+import Guarantee from "../../components/guarantee/Guarantee"
 
 
 const Landing = () => {
@@ -86,6 +87,7 @@ const Landing = () => {
         <div className="buttonCenter">
           <button className="seeMore">Load More</button>
         </div>
+        <Guarantee />
         <h3 className="featuredTitle">Client Testimonials</h3>
         <div className="testimonialHeadDesc">
           <span>  Customers loving our work. Don’t believe our words, believe theirs.</span>
