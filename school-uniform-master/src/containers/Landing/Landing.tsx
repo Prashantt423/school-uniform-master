@@ -54,7 +54,7 @@ const Landing = () => {
           </div>
           <div className="ordersInfo">
             <span className="ordersInfoNum">2,981</span>
-            <span className="ordersInfoText">Total&nbsp;Orders&nbsp;Fullfilled</span>
+            <span className="ordersInfoText">Total&nbsp;Orders Fullfilled</span>
           </div>
         </div>
       </div>
@@ -63,12 +63,10 @@ const Landing = () => {
         <Category />
         <h3 className="featuredTitle">Featured Schools</h3>
         <div className="featured">
-
           <Featured />
           <Featured />
           <Featured />
           <Featured />
-
         </div>
 
         <div className="buttonCenter">
@@ -83,8 +81,6 @@ const Landing = () => {
           <Trending />
           <Trending />
           <Trending />
-
-
         </div>
         <div className="buttonCenter">
           <button className="loadMore">Load More</button>

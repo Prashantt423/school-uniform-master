@@ -76,7 +76,7 @@ export default function Category() {
                 <div className="smPhone">
                     <div className="categoryBox">
                         <div className="categoryTitle">
-                            <span className="categoryCardTitle">Tablet</span>
+                            <span className="categoryCardTitle">Phone</span>
                             <span className="categoryCardDesc">3,482 items</span>
                         </div>
                         <button className="seeAll">see All</button>

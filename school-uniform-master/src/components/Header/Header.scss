@@ -86,7 +86,8 @@
       display: flex;
       align-items: center;
       white-space: nowrap;
-      flex: 1;
+      flex: unset;
+      margin: unset;
       .personIcon {
         display: none;
       }

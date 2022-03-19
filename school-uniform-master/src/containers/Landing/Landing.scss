@@ -104,7 +104,7 @@
   }
 
   .paddingBox {
-    padding: 8rem;
+    padding: 10rem;
     height: fit-content;
 
     h3 {
@@ -216,7 +216,23 @@
     }
   }
 }
-
+@media only screen and (max-width: 1300px) {
+  .landingPageBox {
+    .paddingBox {
+      padding: 4rem;
+    }
+  }
+}
+@media screen and (max-width: 1100px) and (min-width: 720px) {
+  .paddingBox {
+    .trendingBox {
+      justify-content: center;
+    }
+    .featured {
+      justify-content: center;
+    }
+  }
+}
 @media only screen and (max-width: 992px) {
   .landingPageBox {
     .middle {
@@ -278,7 +294,17 @@
     }
   }
 }
-
+// for rightInfo
+@media only screen and (max-width: 900px) {
+  .landingPageBox {
+    .info {
+      .rightInfo {
+        margin-top: 5rem;
+        padding: 0;
+      }
+    }
+  }
+}
 @media only screen and (max-width: 600px) {
   .searchDesc {
     margin-left: 2rem;
@@ -406,9 +432,7 @@
       align-items: center;
       justify-content: space-around;
       flex-wrap: wrap;
-      .landingImage {
-        margin-left: -4.5rem;
-      }
+
       .searchBox {
         .searchDesc {
           margin-top: 2rem;

@@ -81,37 +81,13 @@
     font-size: x-small;
   }
   .searchInput {
-    margin: 2rem;
+    // margin: 2rem;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
     input {
-      padding: 0.5rem 0.5rem 0.5rem 15rem;
-      width: 18%;
-    }
-    .preInputIcons {
-      .selectBox {
-        .loactionIcon {
-          width: 15px;
-          height: 15px;
-        }
-        select {
-          font-size: 14px;
-        }
-      }
-    }
-  }
-}
-
-// small mobile devices
-@media only screen and (max-width: 420px) {
-  .header {
-    // justify-content: end;
-    justify-content: space-between;
-    font-size: x-small;
-  }
-  .searchInput {
-    margin: 2rem;
-    input {
-      padding: 0.5rem 0.5rem 0.5rem 15rem;
-      width: 18%;
+      // padding: 0.5rem 0.5rem 0.5rem 15rem;
+      width: 90%;
     }
     .preInputIcons {
       .selectBox {

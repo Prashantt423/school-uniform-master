@@ -1,5 +1,4 @@
-import PersonIcon from '@mui/icons-material/PersonOutlineOutlined';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCartOutlined';
+
 import "./Header.scss"
 const Header = () => {
   return (
