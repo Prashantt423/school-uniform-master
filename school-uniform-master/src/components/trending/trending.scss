@@ -1,11 +1,12 @@
 $blur: 8px;
 
 .trendingCard {
+  min-width: 210px;
   display: flex;
   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
   width: 240px;
   flex-direction: column;
-  min-width: 150px;
+
   margin: 1rem;
   box-shadow: 0px 0px 8px 1px #e4e2e2;
   border-radius: 24px;
@@ -222,4 +223,14 @@ $blur: 8px;
 
     /* Neutral/5 */
   }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 720px) {
+  .trendingCard {
+    width: 40%;
+    flex: unset;
+  }
+}
+
+@media screen and (max-width: 740px) {
 }
