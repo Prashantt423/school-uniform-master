@@ -66,9 +66,9 @@ const Landing = () => {
 
           <Featured />
           <Featured />
+          <Featured />
+          <Featured />
 
-          <Featured />
-          <Featured />
         </div>
 
         <div className="buttonCenter">
@@ -84,9 +84,10 @@ const Landing = () => {
           <Trending />
           <Trending />
 
+
         </div>
         <div className="buttonCenter">
-          <button className="seeMore">Load More</button>
+          <button className="loadMore">Load More</button>
         </div>
         <Guarantee />
         <h3 className="featuredTitle">Client Testimonials</h3>
@@ -108,7 +109,7 @@ const Landing = () => {
           <TestimonialCard />
         </div>
         <div className="buttonCenter">
-          <button className="seeMore">Load All</button>
+          <button className="loadMore">Load All</button>
         </div>
       </div>
       <Partner />

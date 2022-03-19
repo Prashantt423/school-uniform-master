@@ -104,7 +104,7 @@
   }
 
   .paddingBox {
-    padding: 2rem;
+    padding: 8rem;
     height: fit-content;
 
     h3 {
@@ -135,6 +135,17 @@
       justify-content: center;
       margin-top: 2rem;
       .seeMore {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 14px 24px;
+        background: none;
+        border: 1.5px solid #e8e9ed;
+        box-sizing: border-box;
+        border-radius: 12px;
         font-family: 'SF Pro Text';
         font-style: normal;
         font-weight: 700;
@@ -143,14 +154,36 @@
         /* identical to box height, or 150% */
 
         text-align: center;
-        background: none;
+
         /* Neutral/2 */
 
         color: #383a47;
-        border: 1px solid rgb(233, 227, 227);
       }
     }
 
+    .loadMore {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 14px 24px;
+      background: none;
+      border: 1.5px solid #e8e9ed;
+      box-sizing: border-box;
+      border-radius: 12px;
+      font-family: 'SF Pro Text';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height, or 150% */
+
+      text-align: center;
+
+      /* Neutral/2 */
+
+      color: #383a47;
+    }
     .testimonialHeadDesc {
       font-family: 'SF Pro Text';
       font-style: normal;
@@ -179,7 +212,7 @@
     .trendingBox {
       display: flex;
       flex-wrap: wrap;
-      // justify-content: center;
+      margin-top: 2.5rem;
     }
   }
 }

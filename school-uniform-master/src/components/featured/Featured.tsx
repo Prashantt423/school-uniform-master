@@ -1,5 +1,5 @@
 import "./featured.scss"
-import person from "../../assets/images/landingPage/6162 1.png"
+import person from "../../assets/images/landingPage/Base.png"
 export default function Featured() {
     return (
         <div className="featuredBox">
@@ -8,7 +8,7 @@ export default function Featured() {
             </div>
             <div className="featuredDesc">
                 <span className="featuredDescTitle">St. Thomas Church School</span>
-                <span className="featuredDescLoaction">pop, r and d</span>
+                <span className="featuredDescLoaction">DPS Jodhpur</span>
             </div>
         </div>
     )
