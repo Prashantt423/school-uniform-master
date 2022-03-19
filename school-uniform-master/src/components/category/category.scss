@@ -17,7 +17,8 @@
         background: #fee8ee
           url('../../assets/images/landingPage/ipad-pro-m1-01200.png') no-repeat
           bottom center;
-        padding: 2rem;
+        padding: 15% 4rem;
+        box-sizing: border-box;
         // box-sizing: border-box;
         button {
           margin-top: 3rem;
@@ -31,8 +32,12 @@
           no-repeat 100% 10%;
         display: flex;
         justify-content: flex-end;
-        padding: 3rem;
+        padding-left: 1rem;
         box-sizing: border-box;
+        div {
+          margin-top: 30%;
+          // margin-left: 10%;
+        }
         button {
           margin-top: 4rem;
         }
@@ -185,6 +190,16 @@
     padding: 1rem;
     .categoryGrid {
       height: 700px;
+      .rightCategoryItems {
+        .tablet {
+          padding: 0.5rem;
+        }
+        .laptop {
+          div {
+            margin-top: 5.8rem;
+          }
+        }
+      }
     }
   }
 }

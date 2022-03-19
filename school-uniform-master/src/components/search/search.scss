@@ -41,7 +41,8 @@
     .selectBox {
       position: relative;
       padding: 2rem;
-
+      align-items: center;
+      display: flex;
       .loactionIcon {
         position: absolute;
         left: 0;
@@ -122,6 +123,16 @@
           font-size: 14px;
         }
       }
+    }
+  }
+}
+
+// extra lg devices
+@media screen and (min-width: 1200px) {
+  .searchInput {
+    flex: 1;
+    input {
+      width: 80%;
     }
   }
 }

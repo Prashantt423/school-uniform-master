@@ -1,6 +1,7 @@
 .guaranteeBox {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin-top: 3rem;
   height: 534px;
   div {
@@ -78,5 +79,38 @@
   }
   .support {
     padding-top: 20%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .guaranteeBox {
+    height: auto;
+    div {
+      // logos
+      .logoBox {
+        transform: rotate(0deg);
+      }
+      // .logoGuaranteeMsg {
+      //   background: #edecff;
+      //   transform: rotate(20deg);
+      // }
+
+      // .logoGuaranteeMoney {
+      //   background: #fff0e2;
+      //   transform: rotate(62deg);
+      // }
+      // .logoGuaranteeSupport {
+      // }
+      // .logoGuaranteePayment {
+      // }
+      // .guaranteeText {
+      // }
+      // .guarnteeTextDesc {
+      // }
+    }
+
+    .support {
+      padding-top: 0%;
+    }
   }
 }

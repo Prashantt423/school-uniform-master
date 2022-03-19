@@ -3,7 +3,7 @@
   flex-direction: column;
   min-width: 150px;
   height: 300px;
-  width: 260px;
+  // width: 260px;
 
   .imgBox {
     border-radius: 34px;
@@ -11,6 +11,7 @@
     border: 1px solid #889870;
     height: 80%;
     width: 100%;
+    margin-bottom: 1rem;
     img {
       object-fit: cover;
       width: 90%;
@@ -21,6 +22,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 1rem;
     .featuredDescTitle {
       font-family: 'Abhaya Libre Medium';
       font-style: normal;

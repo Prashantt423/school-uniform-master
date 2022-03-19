@@ -104,7 +104,7 @@
   }
 
   .paddingBox {
-    padding: 5rem;
+    padding: 2rem;
     height: fit-content;
 
     h3 {
@@ -188,6 +188,11 @@
   .landingPageBox {
     .middle {
       flex-direction: column;
+      .landingImage {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
       .searchBox {
         .searchDesc {
           margin-top: 2rem;
@@ -264,7 +269,7 @@
       .rightInfo {
         margin: 1rem 0;
 
-        padding: 0;
+        padding: 2rem;
         div {
           margin: 0;
           span:first-child {
@@ -501,5 +506,16 @@
         }
       }
     }
+  }
+}
+
+// extra lg devices
+@media screen and (min-width: 1200px) {
+  .landingImage {
+    flex: 1;
+  }
+  .searchBox {
+    flex: 1;
+    // margin-left: 20%;
   }
 }

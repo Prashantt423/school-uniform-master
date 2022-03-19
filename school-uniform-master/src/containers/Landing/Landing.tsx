@@ -59,6 +59,7 @@ const Landing = () => {
         </div>
       </div>
       <div className="paddingBox">
+        <h3 className="featuredTitle">Our Category</h3>
         <Category />
         <h3 className="featuredTitle">Featured Schools</h3>
         <div className="featured">

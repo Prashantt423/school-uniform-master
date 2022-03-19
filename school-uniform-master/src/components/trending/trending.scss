@@ -161,9 +161,13 @@ $blur: 8px;
 
   background: rgba(71, 73, 88, 0.6);
   button {
-    text-align: center;
     margin: 1rem 0 1rem 0;
     border: none;
+    display: flex;
+    align-items: center;
+    svg {
+      margin-right: 0.5rem;
+    }
   }
   .preview {
     display: flex;
